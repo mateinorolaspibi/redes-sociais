@@ -13,7 +13,8 @@ async function vizualuizarInformacoesGlobais(){
    paragrafo.classList.add('graficos-container_texto')
    paragrafo.innerHTML = `Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões</span>
     de pessoas e que aproximadamente <span>${pessoasConectadas} bilhões</span> estão
-     conectadas em alguma rede social e passamem média <pan>${horas} horas</span> e <span>${minutos} minutos</span> conectadas.<br>Isso significa que aproximadamente <pan>${porcentagemConectada}%</span> de pessoas estão conctadas em alguma rede social `
+     conectadas em alguma rede social e passamem média <pan>${horas} horas</span> e <span>${minutos} minutos<
+     /span> conectadas.<br>Isso significa que aproximadamente <span>${porcentagemConectada}%</span> de pessoas estão conctadas em alguma rede social `
   
    const container = document.getElementById('graficos-container')
    container.appendChild(paragrafo)
